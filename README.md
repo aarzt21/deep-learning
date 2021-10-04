@@ -7,5 +7,9 @@ The task was as follows:
   So basically, we trained a CNN to compare pictures. The our approach was inspired by the so called
   Face-Net paper: https://arxiv.org/abs/1503.03832. 
   
+  Once we wrote our custom loss function we used pre-trained weights for the CNN (ResNet50 and VGG16). 
+  The final step was to train multiple CNN's and do a majority voting to average out the noise and get
+  better predictive performance - which did the trick for cracking the hard baseline. 
+  
 The project was part of the ETH course "Introduction to Machine Learning" and we scored a straight
 6.00 (A+) on this particular project. 
